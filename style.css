@@ -111,3 +111,14 @@ ul{
     font-size: 38px;
     margin: auto;
 }
+
+.player{
+    display: inline-flex;
+}
+
+.box4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
