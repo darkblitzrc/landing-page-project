@@ -45,8 +45,8 @@ a {
 .section1{
     height: auto;
     display: flex;
-    background-color: #1F2937;
     flex-direction:column;
+    background-color: #1F2937;
     padding: 0 100px 0 100px
 
 }
@@ -68,15 +68,16 @@ a {
     gap: 50px;
 }
 
-.content-text{
+.section1-text{
     width: 550px;
 }
 
-.content-title{
+.section1-title{
     color: #f9faf8;
     font-size: 48px;
+    margin: auto;
 }
-.description{
+.section1-description{
     color: #e5e7eb;
     font-size: 18px;
 }
@@ -88,4 +89,25 @@ ul{
     gap: 12px;
     color: #e5e7eb;
     font-size: 18px;
+}
+
+.section2{
+    height: auto;
+    display: flex;
+    flex-direction:column;
+    padding: 40px 100px 40px 100px;
+    align-items: center;
+}
+
+.section2-content{
+    margin-top: 40px;
+    display: flex;
+    gap: 30px;
+    text-align: center;
+}
+
+.section2-title{
+    color: #1F2937;
+    font-size: 38px;
+    margin: auto;
 }
