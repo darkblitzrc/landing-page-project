@@ -22,10 +22,11 @@ a {
 
 .contact{
     padding: 12 25 12 25;
-    border: none;
+    border: solid #3882f6;
     border-radius: 8px;
     background-color: #3882f6;
     font-family: 'Nunito', sans-serif;
+    font-weight: 700;
     color: white;
     transition-duration: 0.3s;
     cursor: pointer;
