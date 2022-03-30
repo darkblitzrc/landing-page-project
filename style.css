@@ -64,18 +64,22 @@ a {
     display: flex;
     margin-top: 80px;
     margin-bottom: 80px;
-    justify-content: space-between;
-    gap: 50px;
+    gap: 80px;
+    justify-content: space-evenly;
 }
 
 .section1-text{
     width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 .section1-title{
     color: #f9faf8;
     font-size: 48px;
-    margin: auto;
+    margin-bottom: 0;
 }
 .section1-description{
     color: #e5e7eb;
@@ -112,13 +116,4 @@ ul{
     margin: auto;
 }
 
-.player{
-    display: inline-flex;
-}
 
-.box4{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-}
