@@ -101,11 +101,12 @@ ul{
 }
 
 .section2{
-    height: 580;
+    height: 450px;
     display: flex;
     flex-direction:column;
     padding: 40px 100px 40px 100px;
     align-items: center;
+    justify-content: center;
 }
 
 .section2-content{
@@ -122,6 +123,7 @@ ul{
 .section2-title{
     color: #1F2937;
     font-size: 38px;
+    margin-top: 0;
 }
 
 .html-text, .css-text, .python-text, .wordpress-text{
