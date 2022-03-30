@@ -27,18 +27,20 @@ a {
 
 .contact{
     padding: 12 25 12 25;
-    border: solid #3882f6;
+    border:none;
     border-radius: 8px;
     background-color: #3882f6;
     font-family: 'Nunito', sans-serif;
     font-weight: 700;
     color: white;
-    transition-duration: 0.3s;
+    transition-duration: 0.1s;
     cursor: pointer;
 }
 
 .contact:hover{
-    background-color: transparent;
+    background-color: #33C88D;
+    color: white;
+    border: none;
     
 }
 
