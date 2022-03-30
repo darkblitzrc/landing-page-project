@@ -1,9 +1,14 @@
+@font-face {
+    font-family: "Cliffy";
+    src: url("./Fonts/Greycliff-CF-Light.otf") format("opentype"), url(./Fonts/Greycliff-CF-Bold.otf) format("opentype");
+  }
+
 body{
     margin: 0;
-    font-family:"Nunito", sans-serif;
+    font-family:"Cliffy", sans-serif;
 }
 h2{
-    font-weight: 700;
+    font-weight: 900;
 }
 ul{
     list-style: none;
