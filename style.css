@@ -1,14 +1,10 @@
-@font-face {
-    font-family: "Cliffy";
-    src: url("./Fonts/Greycliff-CF-Light.otf") format("opentype"), url(./Fonts/Greycliff-CF-Bold.otf) format("opentype");
-  }
 
 body{
     margin: 0;
-    font-family:"Cliffy", sans-serif;
+    font-family:"Nunito Sans", sans-serif;
 }
 h2{
-    font-weight: 900;
+    font-weight: 600;
 }
 ul{
     list-style: none;
@@ -30,8 +26,8 @@ a {
     border:none;
     border-radius: 8px;
     background-color: #3882f6;
-    font-family: "Cliffy", sans-serif;
-    font-weight: 700;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 600;
     color: white;
     transition-duration: 0.1s;
     cursor: pointer;
@@ -200,7 +196,7 @@ ul{
     color: white;
     border-radius: 8px;
     padding: 4 18 4 18;
-    font-family: "Cliffy", sans-serif;
+    font-family: "Nunito Sans", sans-serif;
 }
 
 .s4button:hover{
@@ -213,7 +209,8 @@ ul{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: auto;
+    height: 40;
     background-color: #1F2937;
     color: white;
+    font-size: 12;
 }
