@@ -208,3 +208,12 @@ ul{
     color: #3882f6;
     cursor: pointer;
 }
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    background-color: #1F2937;
+    color: white;
+}
