@@ -30,7 +30,7 @@ a {
     border:none;
     border-radius: 8px;
     background-color: #3882f6;
-    font-family: 'Nunito', sans-serif;
+    font-family: "Cliffy", sans-serif;
     font-weight: 700;
     color: white;
     transition-duration: 0.1s;
@@ -174,8 +174,8 @@ ul{
 .section4-content{
     display: flex;
     background-color: #3882f6;
-    width: 500;
-    height: 120;
+    width: 620;
+    height: 140;
     align-items: center;
     justify-content: space-around;
     border-radius: 8px;
@@ -183,6 +183,8 @@ ul{
 
 .section4-text{
     color: white;
+    width: 400px;
+    padding: 18px;
 }
 
 .s4p{
@@ -190,4 +192,19 @@ ul{
 }
 .s4h{
     margin-bottom: 0;
+}
+
+.s4button{
+    background-color: transparent;
+    border: solid white;
+    color: white;
+    border-radius: 8px;
+    padding: 4 18 4 18;
+    font-family: "Cliffy", sans-serif;
+}
+
+.s4button:hover{
+    background-color: white;
+    color: #3882f6;
+    cursor: pointer;
 }
